@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ForestHomeAdventureGuide.BlogsPage">
+	<ContentPage.Content>
+		<ListView>
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<StackLayout HorizontalOptions="Start" VerticalOptions="StartAndExpand" Padding="10,2,10,2">
+						<Label x:Name="title" Text="  Assurance of Things Hoped For" Font = "20" VerticalOptions="CenterAndExpand" BackgroundColor="#DDDDDD" />
+						<Label x:Name="author" Text = "Rachel McDonald"/>
+						<Label x:Name="date" Text="March 12, 2017"/>
+						<StackLayout Orientation="Horizontal">
+							<Image Source="http://lorempixel.com/225/320/"/>
+							<Label FontSize ="13" LineBreakMode="WordWrap" Text="Hello! This month, we are kicking off our annual Men’s Retreat March 31 – April 2. Our Speaker is Jeff Kemp a former NFL Quarterback who played in the league for 11 seasons with the Los Angeles Rams, San Francisco 49ers, Seattle Seahawks and Philadelphia Eagles. Jeff, who is an Ivy League graduate and holds..." />
+						</StackLayout>
+						<Label XAlign="Center" Text = "Read More >" BackgroundColor="#5C9B68" TextColor="White" VerticalOptions="CenterAndExpand" />
+					</StackLayout>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</ContentPage.Content>
+</ContentPage>

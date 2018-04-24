@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F083DAA9-E9C4-4065-94FB-F62A82497883}</ProjectGuid>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UseMSBuildEngine>true</UseMSBuildEngine>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ForestHomeAdventureGuide</RootNamespace>
+    <AssemblyName>ForestHomeAdventureGuide</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App.xaml" />
+    <EmbeddedResource Include="AppEntryPage.xaml" />
+    <EmbeddedResource Include="Assets\logo_small.png" />
+    <EmbeddedResource Include="Assets\oval-posts.png" />
+    <EmbeddedResource Include="LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListMenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountDownPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlogsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\CampCenterLogos\AM-Logo-Posts.png" />
+    <EmbeddedResource Include="Assets\CampCenterLogos\CS-Logo-Posts.png" />
+    <EmbeddedResource Include="Assets\CampCenterLogos\FC-Logo-Posts.png" />
+    <EmbeddedResource Include="Assets\CampCenterLogos\FH-Logo.png" />
+    <EmbeddedResource Include="Assets\CampCenterLogos\LV-Logo-Posts.png" />
+    <EmbeddedResource Include="Assets\CampCenterLogos\TV-Logo-Posts.png" />
+    <EmbeddedResource Include="Assets\Backgrounds\Countdown Image.png" />
+    <EmbeddedResource Include="Assets\Backgrounds\WeatherBackground.png" />
+    <EmbeddedResource Include="Assets\Icons\action.png" />
+    <EmbeddedResource Include="Assets\Icons\back_stock_icon.png" />
+    <EmbeddedResource Include="Assets\Icons\calendar.png" />
+    <EmbeddedResource Include="Assets\Icons\clock_icon.png" />
+    <EmbeddedResource Include="Assets\Icons\cloud.png" />
+    <EmbeddedResource Include="Assets\Icons\downArrow.png" />
+    <EmbeddedResource Include="Assets\Icons\firstAid.png" />
+    <EmbeddedResource Include="Assets\Icons\house.png" />
+    <EmbeddedResource Include="Assets\Icons\information.png" />
+    <EmbeddedResource Include="Assets\Icons\Map.png" />
+    <EmbeddedResource Include="Assets\Icons\Media.png" />
+    <EmbeddedResource Include="Assets\Icons\menuIcon.png" />
+    <EmbeddedResource Include="Assets\Icons\power.png" />
+    <EmbeddedResource Include="Assets\Icons\rebook.png" />
+    <EmbeddedResource Include="Assets\Icons\road.png" />
+    <EmbeddedResource Include="Assets\Icons\refresh.png" />
+    <EmbeddedResource Include="Assets\Icons\storeCards.png" />
+    <EmbeddedResource Include="Assets\Icons\video-play-icon.png" />
+    <EmbeddedResource Include="Assets\Icons\weather.png" />
+    <EmbeddedResource Include="Assets\PlaceHolders\emptyCellImage.png" />
+    <EmbeddedResource Include="Assets\PlaceHolders\fc_bear.png" />
+    <EmbeddedResource Include="Assets\Backgrounds\login_bg.png" />
+    <EmbeddedResource Include="Assets\Backgrounds\login_bg_portrate.jpg" />
+    <EmbeddedResource Include="TestPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AppEntryPage.xaml.cs">
+      <DependentUpon>AppEntryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListMenuPage.xaml.cs">
+      <DependentUpon>ListMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Data Model\DataLayer.cs" />
+    <Compile Include="Models\Data Model\DataManager.cs" />
+    <Compile Include="Models\Data Model\NetworkingLayer.cs" />
+    <Compile Include="Models\DrawerItem.cs" />
+    <Compile Include="MyPage.xaml.cs">
+      <DependentUpon>MyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Data Model\DataBaseObjects.cs" />
+    <Compile Include="Models\Data Model\ApiUri.cs" />
+    <Compile Include="Models\Data Model\jsonObjects.cs" />
+    <Compile Include="CountDownPage.xaml.cs">
+      <DependentUpon>CountDownPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IAndroidMethods.cs" />
+    <Compile Include="MenuCell.cs" />
+    <Compile Include="BlogsPage.xaml.cs">
+      <DependentUpon>BlogsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MarkupExtentions\Embeddedmage.cs" />
+    <Compile Include="MarkupExtentions\PageWidth.cs" />
+    <Compile Include="MarkupExtentions\PageHeight.cs" />
+    <Compile Include="TestPage.xaml.cs">
+      <DependentUpon>TestPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Data Model\RequestType.cs" />
+    <Compile Include="Utils\MyDateTime.cs" />
+    <Compile Include="Utils\CampLocation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Realm.DataBinding">
+      <HintPath>..\packages\Realm.DataBinding.1.1.0\lib\netstandard1.0\Realm.DataBinding.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\portable-net45+win8+wpa81+wp8\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Realm">
+      <HintPath>..\packages\Realm.Database.1.4.0\lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+Xamarin.iOS10+monotouch+Xamarin.Mac\Realm.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="FodyWeavers.xml" />
+    <None Include="Assets\Icons\give.png" />
+    <None Include="Assets\PlaceHolders\Full_Cell_Empty_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Models\Data Model\" />
+    <Folder Include="Assets\CampCenterLogos\" />
+    <Folder Include="Assets\Backgrounds\" />
+    <Folder Include="Assets\Icons\" />
+    <Folder Include="Assets\PlaceHolders\" />
+    <Folder Include="MarkupExtentions\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Realm.Database.1.4.0\build\Realm.Database.targets" Condition="Exists('..\packages\Realm.Database.1.4.0\build\Realm.Database.targets')" />
+  <Import Project="..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
+  <Import Project="..\packages\Fody.2.1.0\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.2.1.0\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
+</Project>

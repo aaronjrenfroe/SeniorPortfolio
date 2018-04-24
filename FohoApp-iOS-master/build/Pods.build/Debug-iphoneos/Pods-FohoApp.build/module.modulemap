@@ -1,0 +1,6 @@
+framework module Pods_FohoApp {
+  umbrella header "Pods-FohoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

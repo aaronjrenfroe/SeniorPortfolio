@@ -1,0 +1,10 @@
+Tesla Model S,69000.00
+Campy Camping Tent,49.99
+Hot Dogs,1.99,5,8.00
+Hiking Boots,99.99
+Sleeping Bag,99.98,2,150.00
+Flashlight Batteries,0.50,5,2.00
+iPhone Solar Charger,19.27
+Computer Engineering Class,1200.0
+Java Rules! button,0.99,10,5.0
+Java Rules! bumper sticker,0.99,20,8.95

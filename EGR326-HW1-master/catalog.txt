@@ -1,0 +1,11 @@
+Silly Putty,3.95,10,19.99
+Silly String,3.50,10,14.95
+Bottle o' Bubbles,0.99
+Nintendo Wii system,389.99
+Mario Computer Science Party 2 Wii,49.99
+Don Knuth Code Jam Challenge X-Box,49.99
+Computer Science pen,3.40
+Rubik's cube,9.10
+Computer Engineering Barbie,19.99
+Java Rules! button,0.99,10,5.0
+Java Rules! bumper sticker,0.99,20,8.95

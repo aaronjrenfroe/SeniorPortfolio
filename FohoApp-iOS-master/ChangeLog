@@ -1,0 +1,50 @@
+1.3.2
+
+Added Abaility to put miltiple names for campers attending an event on the countdown page
+
+Added Formatting to the StoreCard and CamperMed Cells
+
+
+
+1.3.1
+FeedPage:
+    Checked PDF For valid urls
+        Displays error if bad
+Registrations Page:
+    If event is a family Event
+        Added All family members names to options label
+    Checked it Events were Non-programmed events
+        Adds Message in Event Options
+        Removes Rebooking request
+    Added View Photos Option to all Members who attened event
+
+    Changed the Displayed Date formatting for an event
+        Added the Year
+        If event was only One day in length, the end date is not displayed
+
+
+Drawer Menu:
+    The Version Label's location is now updated upon opening
+        this was an issue for iPad
+
+    If DM was for the opened first time in while iPad is in Landscape
+        and then in Portrate or device was rotated the label would be in
+        an incorrect position.
+Blogs:
+    Changed Default Content Height to 800 from 412 to prevent content from being
+    cutoff before the images loads. As before, once content loads, Webview height is
+    adjusted to appropriate content height.
+
+    Fixed Layout issue with Image and Title View on Ipad in Landscape orientation
+
+1.1.2
+
+Weather:
+    Truncated Values to 1 decimal place.
+Login VC:
+    Fixed Layout for iPAD
+
+Feed Page:
+Adjusted Layout for Ipad
+    Spacing Between Cells
+    Background Color

@@ -1,0 +1,103 @@
+Election Vote Counter
+
+Main System Menu
+----------------
+A)dd polling place
+C)lose the polls
+R)esults
+P)er-polling-place results
+E)liminate lowest candidate
+?) display this menu of choices again
+Q)uit
+
+Main menu, enter your choice: r
+The election is still open for votes.
+You must close the election before viewing results.
+
+Main menu, enter your choice: p
+The election is still open for votes.
+You must close the election before viewing results.
+
+Main menu, enter your choice: a
+Name of polling place: u district
+Added u district.
+
+Main menu, enter your choice: a
+Name of polling place: capitol HILL
+Added capitol HILL.
+
+Main menu, enter your choice: a
+Name of polling place: bothell
+Added bothell.
+
+Main menu, enter your choice: c
+Closing the election.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+John McCain                   REP         6     40.0
+Barack Obama                  DEM         6     40.0
+Ralph Nader                   GRN         2     13.3
+Ron Paul                      CNS         1      6.7
+
+Main menu, enter your choice: p
+Name of polling place: BotheLL
+Current election results for BotheLL.
+NAME                          PARTY   VOTES     %
+Barack Obama                  DEM         4     44.4
+John McCain                   REP         3     33.3
+Ralph Nader                   GRN         2     22.2
+Ron Paul                      CNS         0      0.0
+
+Main menu, enter your choice: p
+Name of polling place: Capitol Hill
+Current election results for Capitol Hill.
+NAME                          PARTY   VOTES     %
+John McCain                   REP         1     50.0
+Barack Obama                  DEM         1     50.0
+Ron Paul                      CNS         0      0.0
+Ralph Nader                   GRN         0      0.0
+
+Main menu, enter your choice: e
+Eliminating the lowest-ranked candidate.
+Eliminated Ron Paul.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+Barack Obama                  DEM         7     46.7
+John McCain                   REP         6     40.0
+Ralph Nader                   GRN         2     13.3
+
+Main menu, enter your choice: p
+Name of polling place: Bothell
+Current election results for Bothell.
+NAME                          PARTY   VOTES     %
+Barack Obama                  DEM         4     44.4
+John McCain                   REP         3     33.3
+Ralph Nader                   GRN         2     22.2
+
+Main menu, enter your choice: e
+Eliminating the lowest-ranked candidate.
+Eliminated Ralph Nader.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+Barack Obama                  DEM         9     60.0
+John McCain                   REP         6     40.0
+
+Main menu, enter your choice: e
+A candidate already has a majority of the votes.
+You cannot remove any more candidates.
+
+Main menu, enter your choice: p
+Name of polling place: U district
+Current election results for U district.
+NAME                          PARTY   VOTES     %
+John McCain                   REP         2     50.0
+Barack Obama                  DEM         2     50.0
+
+Main menu, enter your choice: q
+Goodbye.

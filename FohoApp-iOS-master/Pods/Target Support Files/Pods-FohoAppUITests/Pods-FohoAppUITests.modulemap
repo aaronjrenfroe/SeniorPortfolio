@@ -1,0 +1,6 @@
+framework module Pods_FohoAppUITests {
+  umbrella header "Pods-FohoAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

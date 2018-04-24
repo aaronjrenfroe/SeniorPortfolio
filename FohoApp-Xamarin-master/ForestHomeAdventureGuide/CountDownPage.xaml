@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ForestHomeAdventureGuide.CountDownPage">
+ 	<StackLayout HorizontalOptions = "Center" VerticalOptions="Center" Padding="40">
+		<Label Text="Count Down" HorizontalOptions="Center"/>
+		<Label x:Name="eventDetails" Text= "No upcoming events" HorizontalOptions="Center"/>
+		<Label x:Name="clock" Text="000:00:00:00" HorizontalOptions="Center"/>
+		<Button Text="Continue" BorderWidth="1" BorderRadius="5" BorderColor = "Black" WidthRequest="100" Clicked="HandleContinueClicked"/>
+	</StackLayout>
+</ContentPage>

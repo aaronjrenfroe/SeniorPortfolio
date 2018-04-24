@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FamilyMember" representedClassName="FamilyMember" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entityID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toItinerary" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Itinerary" inverseName="toFamilyMember" inverseEntity="Itinerary" syncable="YES"/>
+        <relationship name="toMedRecord" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MedRecord" inverseName="toFamilyMember" inverseEntity="MedRecord" syncable="YES"/>
+    </entity>
+    <entity name="FeedItem" representedClassName="FeedItem" syncable="YES" codeGenerationType="class">
+        <attribute name="caption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originalUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registrationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Itinerary" representedClassName="Itinerary" syncable="YES" codeGenerationType="class">
+        <attribute name="beginDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entityID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventAbbrev" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDivisionID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventTypeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itineraryID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registrationBalance" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="registrationID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toFamilyMember" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FamilyMember" inverseName="toItinerary" inverseEntity="FamilyMember" syncable="YES"/>
+    </entity>
+    <entity name="MedRecord" representedClassName="MedRecord" syncable="YES" codeGenerationType="class">
+        <attribute name="dosageStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dosageTimeOfDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entityFullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entityID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entryDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toFamilyMember" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FamilyMember" inverseName="toMedRecord" inverseEntity="FamilyMember" syncable="YES"/>
+    </entity>
+    <entity name="ScheduledPost" representedClassName="ScheduledPost" syncable="YES" codeGenerationType="class">
+        <attribute name="attachment_URL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="excerpt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expire_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="post_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbpath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StoreCard" representedClassName="StoreCard" syncable="YES" codeGenerationType="class">
+        <attribute name="credits" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="debits" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="donateRemainingBalance" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="entityID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pendingTransactions" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="registrationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StoreCardTransaction" representedClassName="StoreCardTransaction" syncable="YES" codeGenerationType="class">
+        <attribute name="entityID" attributeType="String" syncable="YES"/>
+        <attribute name="invoiceNumber" attributeType="String" syncable="YES"/>
+        <attribute name="itemsPurchased" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="itineraryID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="time" attributeType="String" syncable="YES"/>
+        <attribute name="totalCharged" attributeType="String" syncable="YES"/>
+        <attribute name="transactionType" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FamilyMember" positionX="151" positionY="36" width="128" height="150"/>
+        <element name="FeedItem" positionX="270" positionY="81" width="128" height="165"/>
+        <element name="Itinerary" positionX="385" positionY="-30" width="128" height="255"/>
+        <element name="MedRecord" positionX="270" positionY="63" width="128" height="180"/>
+        <element name="ScheduledPost" positionX="270" positionY="90" width="128" height="195"/>
+        <element name="StoreCard" positionX="270" positionY="90" width="128" height="225"/>
+        <element name="StoreCardTransaction" positionX="270" positionY="90" width="128" height="165"/>
+    </elements>
+</model>

@@ -1,0 +1,80 @@
+Election Vote Counter
+
+Main System Menu
+----------------
+A)dd polling place
+C)lose the polls
+R)esults
+P)er-polling-place results
+E)liminate lowest candidate
+?) display this menu of choices again
+Q)uit
+
+Main menu, enter your choice: a
+Name of polling place: bellevue
+Added bellevue.
+
+Main menu, enter your choice: a
+Name of polling place: kent
+Added kent.
+
+Main menu, enter your choice: c
+Closing the election.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+John McCain                   REP         7     36.8
+Ron Paul                      CNS         6     31.6
+Barack Obama                  DEM         4     21.1
+Ralph Nader                   GRN         2     10.5
+
+Main menu, enter your choice: p
+Name of polling place: bellevue
+Current election results for bellevue.
+NAME                          PARTY   VOTES     %
+John McCain                   REP         6     46.2
+Ron Paul                      CNS         4     30.8
+Barack Obama                  DEM         2     15.4
+Ralph Nader                   GRN         1      7.7
+
+Main menu, enter your choice: p
+Name of polling place: kent
+Current election results for kent.
+NAME                          PARTY   VOTES     %
+Ron Paul                      CNS         2     33.3
+Barack Obama                  DEM         2     33.3
+Ralph Nader                   GRN         1     16.7
+John McCain                   REP         1     16.7
+
+Main menu, enter your choice: e
+Eliminating the lowest-ranked candidate.
+Eliminated Ralph Nader.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+Ron Paul                      CNS         8     42.1
+John McCain                   REP         7     36.8
+Barack Obama                  DEM         4     21.1
+
+Main menu, enter your choice: p
+Name of polling place: kent
+Current election results for kent.
+NAME                          PARTY   VOTES     %
+Ron Paul                      CNS         3     50.0
+Barack Obama                  DEM         2     33.3
+John McCain                   REP         1     16.7
+
+Main menu, enter your choice: e
+Eliminating the lowest-ranked candidate.
+Eliminated Barack Obama.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+John McCain                   REP        10     52.6
+Ron Paul                      CNS         9     47.4
+
+Main menu, enter your choice: q
+Goodbye.

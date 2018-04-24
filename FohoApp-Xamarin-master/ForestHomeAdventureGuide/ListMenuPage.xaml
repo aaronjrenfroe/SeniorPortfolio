@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage 
+	
+
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="ForestHomeAdventureGuide.ListMenuPage"
+	xmlns:local="clr-namespace:ForestHomeAdventureGuide;assembly=ForestHomeAdventureGuide"
+
+	>
+	<MasterDetailPage.Master>
+		
+		<ContentPage 	
+			Icon = "Assets.menuIcon.png"
+			Title = "Menu">
+			<ListView x:Name = "drawerItems" ItemSelected="Handle_ItemSelected" SeparatorVisibility="None" BackgroundColor = "#5C9B68">
+				<ListView.Header>
+					<StackLayout BackgroundColor ="Black" Padding = "20, 20, 20, 20" VerticalOptions="End" HorizontalOptions = "FillAndExpand">
+						<Image x:Name = "menuLogo" WidthRequest = "50" HeightRequest="50"/>
+						<Label x:Name = "userNameLabel" Text="Hello, {Binding Source}!" TextColor = "White"/>
+					</StackLayout>
+
+				</ListView.Header>
+				<ListView.ItemTemplate>
+					<DataTemplate >
+						<local:MenuCell Text = "{Binding Title}" TextColor="Black"/>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</ContentPage>
+	</MasterDetailPage.Master>
+	<MasterDetailPage.Detail>
+		<ContentPage>
+			
+		</ContentPage>
+	</MasterDetailPage.Detail>
+</MasterDetailPage>

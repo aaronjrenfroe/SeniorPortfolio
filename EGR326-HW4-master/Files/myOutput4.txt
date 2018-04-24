@@ -1,0 +1,77 @@
+Election Vote Counter
+
+Main System Menu
+----------------
+A)dd polling place
+C)lose the polls
+R)esults
+P)er-polling-place results
+E)liminate lowest candidate
+?) display this menu of choices again
+Q)uit
+
+Main menu, enter your choice: a
+Name of polling place: redmond
+Added redmond.
+
+Main menu, enter your choice: c
+Closing the election.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+Stuart Reges                  ???         2     28.6
+Ron Paul                      CNS         2     28.6
+Barack Obama                  DEM         2     28.6
+Captain Planet                ???         1     14.3
+Ralph Nader                   GRN         0      0.0
+John McCain                   REP         0      0.0
+
+Main menu, enter your choice: e
+Eliminating the lowest-ranked candidate.
+Eliminated Ralph Nader.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+Stuart Reges                  ???         2     28.6
+Ron Paul                      CNS         2     28.6
+Barack Obama                  DEM         2     28.6
+Captain Planet                ???         1     14.3
+John McCain                   REP         0      0.0
+
+Main menu, enter your choice: e
+Eliminating the lowest-ranked candidate.
+Eliminated John McCain.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+Stuart Reges                  ???         2     28.6
+Ron Paul                      CNS         2     28.6
+Barack Obama                  DEM         2     28.6
+Captain Planet                ???         1     14.3
+
+Main menu, enter your choice: e
+Eliminating the lowest-ranked candidate.
+Eliminated Captain Planet.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+Ron Paul                      CNS         3     42.9
+Stuart Reges                  ???         2     28.6
+Barack Obama                  DEM         2     28.6
+
+Main menu, enter your choice: e
+Eliminating the lowest-ranked candidate.
+Eliminated Stuart Reges.
+
+Main menu, enter your choice: r
+Current election results for all polling places.
+NAME                          PARTY   VOTES     %
+Ron Paul                      CNS         4     57.1
+Barack Obama                  DEM         3     42.9
+
+Main menu, enter your choice: q
+Goodbye.

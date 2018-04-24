@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ForestHomeAdventureGuide.TestPage" 
+	xmlns:local="clr-namespace:ForestHomeAdventureGuide"
+	BackgroundColor = "#399E5A">
+	<AbsoluteLayout>
+		<Image Source="{local:EmbeddedImage ForestHomeAdventureGuide.Assets.Backgrounds.login_bg_portrate.jpg}" x:Name="BgImage" Aspect="AspectFill" IsVisible="true" 
+			AbsoluteLayout.LayoutBounds="0.5, 0.5, 1,1" 
+			AbsoluteLayout.LayoutFlags="All"/>
+		<StackLayout HorizontalOptions="Center" VerticalOptions = "Center" Padding = "20,20,20,20"
+			AbsoluteLayout.LayoutBounds="0.1,0.1,1,1" 
+			AbsoluteLayout.LayoutFlags="All">
+		
+			<Image x:Name="fhLogo"  Aspect="AspectFit" 
+				WidthRequest= "{local:PageHeight 0.20}"
+				HeightRequest= "{local:PageHeight 0.20}"/>
+			
+			<Label Text="Welcome" FontSize="35" TextColor = "White" XAlign="Center"/>
+			<Label Text="Email" TextColor = "White"/>
+			<Entry x:Name = "emailEntry" Keyboard="Email" Text="aaronrsiphone@gmail.com" TextColor = "White" BackgroundColor="#4FFF"/>
+			<Label Text="Password" TextColor = "White"/>
+			<Entry x:Name="passwordEntry" IsPassword="true" Text="camp1234" TextColor = "White" BackgroundColor="#4FFF"/>
+			<StackLayout Orientation="Vertical" HorizontalOptions = "Center" VerticalOptions = "Center" Padding = "20" >
+				<Button x:Name="LoginBtn" Text="Login" Clicked="Handle_Clicked_Login" BorderRadius="5" TextColor = "White" BorderColor="White" BorderWidth="1" WidthRequest="200"/>
+				<Button x:Name="HelpBtn" Text="Need Help" Clicked = "Handle_Clicked_Help" BorderRadius="5" TextColor = "White" BorderColor="White" BorderWidth ="1" WidthRequest="210"/>
+
+			</StackLayout>
+		</StackLayout>
+
+	</AbsoluteLayout>
+
+</ContentPage>

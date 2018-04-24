@@ -1,0 +1,1049 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F00A8284095B9B922D7B2E9 /* Pods_FohoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00FE7EE58FF7E395088C2E8 /* Pods_FohoAppUITests.framework */; };
+		381CFB3768C40462EBDA3A47 /* Pods_FohoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757FDBD69963F90C5CB26A38 /* Pods_FohoApp.framework */; };
+		7C0E7D9DE1E67D332085B7FD /* Pods_FohoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2E996BFF23B3C8B756D79A /* Pods_FohoAppTests.framework */; };
+		B10034541E86471100E932BA /* BlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10034531E86471100E932BA /* BlogView.swift */; };
+		B1123D391E1EEAAE00AD63A1 /* FeedItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1123D381E1EEAAE00AD63A1 /* FeedItemTableViewCell.swift */; };
+		B1123D451E1F23EE00AD63A1 /* RegistrationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1123D441E1F23EE00AD63A1 /* RegistrationTableViewCell.swift */; };
+		B1123D491E20507C00AD63A1 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1123D481E20507C00AD63A1 /* WeatherVC.swift */; };
+		B1123D4B1E20509600AD63A1 /* DirectionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1123D4A1E20509600AD63A1 /* DirectionsVC.swift */; };
+		B1123D511E205E2100AD63A1 /* MainRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1123D501E205E2100AD63A1 /* MainRegistrationVC.swift */; };
+		B1123D841E25B3CC00AD63A1 /* launchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1123D831E25B3CC00AD63A1 /* launchVC.swift */; };
+		B1185ED71EB5585600F82525 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185ED61EB5585600F82525 /* DayCell.swift */; };
+		B1185ED91EB5D7F500F82525 /* HttpRequestManager2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1185ED81EB5D7F500F82525 /* HttpRequestManager2.swift */; };
+		B1273D1C1E68AA9D00F7B770 /* SKYIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1273D1B1E68AA9D00F7B770 /* SKYIconView.swift */; };
+		B1273D1E1E68ADBB00F7B770 /* CountDownController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1273D1D1E68ADBB00F7B770 /* CountDownController.swift */; };
+		B12B516B1EDF9EFE008983DC /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = B12B516A1EDF9EFE008983DC /* ChangeLog */; };
+		B12E427E1E84B67000535730 /* BlogsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12E427D1E84B67000535730 /* BlogsVC.swift */; };
+		B12E42801E84E49300535730 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12E427F1E84E49300535730 /* BlogCell.swift */; };
+		B13E96931F155D42001441C0 /* SCTransactionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13E96921F155D42001441C0 /* SCTransactionTableViewController.swift */; };
+		B13E96971F158576001441C0 /* SCTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13E96951F158576001441C0 /* SCTransactionTableViewCell.swift */; };
+		B13E96981F158576001441C0 /* SCTransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13E96961F158576001441C0 /* SCTransactionTableViewCell.xib */; };
+		B1488F331E64EEEF002DBF7E /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1488F321E64EEEF002DBF7E /* PhotoCollectionCell.swift */; };
+		B14D70D11E07450700A71CAE /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D70CE1E07450700A71CAE /* KYDrawerController.swift */; };
+		B14D70D21E07450700A71CAE /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D70CF1E07450700A71CAE /* KYEmbedMainControllerSegue.swift */; };
+		B14D70D31E07450700A71CAE /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D70D01E07450700A71CAE /* KYEmbedDrawerControllerSegue.swift */; };
+		B14D70D61E075D8D00A71CAE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14D70D51E075D8D00A71CAE /* MapKit.framework */; };
+		B14D70DC1E08775600A71CAE /* DrawerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D70DB1E08775600A71CAE /* DrawerVC.swift */; };
+		B14D70DE1E0888C900A71CAE /* menuHeaderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D70DD1E0888C900A71CAE /* menuHeaderCellTableViewCell.swift */; };
+		B14D70E01E08897B00A71CAE /* menuBtnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D70DF1E08897B00A71CAE /* menuBtnCell.swift */; };
+		B14F18BD1E95AA9C00202ACC /* OutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14F18BC1E95AA9C00202ACC /* OutlineButton.swift */; };
+		B14F520C1E29CB3D00434EB6 /* coreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B14F520A1E29CB3D00434EB6 /* coreData.xcdatamodeld */; };
+		B14F520E1E2D5ED000434EB6 /* JsonObjectStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14F520D1E2D5ED000434EB6 /* JsonObjectStructs.swift */; };
+		B15709DF1EBDB0D900946714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15709DD1EBDB0D900946714 /* LaunchScreen.storyboard */; };
+		B16026771EB8FABB00EB1E2F /* UIDeviceExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16026761EB8FABB00EB1E2F /* UIDeviceExtention.swift */; };
+		B161FD841E1D97E7003884BB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161FD831E1D97E7003884BB /* Settings.swift */; };
+		B16DCC471E6CC7650014032C /* PhotoCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DCC461E6CC7650014032C /* PhotoCollectionVC.swift */; };
+		B16DCC4C1E6CEE530014032C /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DCC4B1E6CEE530014032C /* PhotoViewCell.swift */; };
+		B16DCC4E1E6CF7D30014032C /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DCC4D1E6CF7D30014032C /* DetailVC.swift */; };
+		B179D1EB1EC5142E00765C73 /* PhotoPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179D1EA1EC5142E00765C73 /* PhotoPager.swift */; };
+		B17E3F071E344A4B005D8BED /* StoreCardBalances.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E3F061E344A4B005D8BED /* StoreCardBalances.swift */; };
+		B1A433D81EA15AAF0027288F /* UnderlineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A433D71EA15AAF0027288F /* UnderlineLabel.swift */; };
+		B1A433DA1EA15E190027288F /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A433D91EA15E190027288F /* PostTableViewCell.swift */; };
+		B1A682201E15EE4300C2A54F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6821F1E15EE4300C2A54F /* TabBarController.swift */; };
+		B1A6826A1E16D8B600C2A54F /* TabBarAnimationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A682691E16D8B600C2A54F /* TabBarAnimationUtils.swift */; };
+		B1A682791E16FCDB00C2A54F /* TVCRegistrationsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A682781E16FCDB00C2A54F /* TVCRegistrationsVc.swift */; };
+		B1B173AC1E13394000EE0158 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B173AB1E13394000EE0158 /* ProgressView.swift */; };
+		B1EBDC9B1E0356AA007D9488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBDC9A1E0356AA007D9488 /* AppDelegate.swift */; };
+		B1EBDC9D1E0356AA007D9488 /* Loginvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBDC9C1E0356AA007D9488 /* Loginvc.swift */; };
+		B1EBDCA01E0356AA007D9488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EBDC9E1E0356AA007D9488 /* Main.storyboard */; };
+		B1EBDCA21E0356AA007D9488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EBDCA11E0356AA007D9488 /* Assets.xcassets */; };
+		B1EBDCB01E0356AB007D9488 /* FohoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBDCAF1E0356AB007D9488 /* FohoAppTests.swift */; };
+		B1EBDCBB1E0356AB007D9488 /* FohoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBDCBA1E0356AB007D9488 /* FohoAppUITests.swift */; };
+		B1EBDCCD1E049FC3007D9488 /* helperClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBDCCC1E049FC3007D9488 /* helperClasses.swift */; };
+		B1EBDCCF1E04A3CB007D9488 /* LoginExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBDCCE1E04A3CB007D9488 /* LoginExt.swift */; };
+		B1EBDCD31E060F9F007D9488 /* TVCFeedVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBDCD21E060F9F007D9488 /* TVCFeedVc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1EBDCAC1E0356AB007D9488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1EBDC8F1E0356AA007D9488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1EBDC961E0356AA007D9488;
+			remoteInfo = FohoApp;
+		};
+		B1EBDCB71E0356AB007D9488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1EBDC8F1E0356AA007D9488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1EBDC961E0356AA007D9488;
+			remoteInfo = FohoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F03F7D9CE615F5416E7497E /* Pods-FohoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FohoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FohoApp/Pods-FohoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		722B217667BB797B8D04EDB4 /* Pods-FohoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FohoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FohoAppTests/Pods-FohoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		757FDBD69963F90C5CB26A38 /* Pods_FohoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FohoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B6741019FCEC3460DBBE3A /* Pods-FohoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FohoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FohoApp/Pods-FohoApp.release.xcconfig"; sourceTree = "<group>"; };
+		B00FE7EE58FF7E395088C2E8 /* Pods_FohoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FohoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10034531E86471100E932BA /* BlogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogView.swift; sourceTree = "<group>"; };
+		B1123D381E1EEAAE00AD63A1 /* FeedItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItemTableViewCell.swift; sourceTree = "<group>"; };
+		B1123D441E1F23EE00AD63A1 /* RegistrationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewCell.swift; sourceTree = "<group>"; };
+		B1123D481E20507C00AD63A1 /* WeatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		B1123D4A1E20509600AD63A1 /* DirectionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsVC.swift; sourceTree = "<group>"; };
+		B1123D501E205E2100AD63A1 /* MainRegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRegistrationVC.swift; sourceTree = "<group>"; };
+		B1123D831E25B3CC00AD63A1 /* launchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = launchVC.swift; sourceTree = "<group>"; };
+		B1185ED61EB5585600F82525 /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		B1185ED81EB5D7F500F82525 /* HttpRequestManager2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestManager2.swift; sourceTree = "<group>"; };
+		B1273D1B1E68AA9D00F7B770 /* SKYIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKYIconView.swift; sourceTree = "<group>"; };
+		B1273D1D1E68ADBB00F7B770 /* CountDownController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDownController.swift; sourceTree = "<group>"; };
+		B12B516A1EDF9EFE008983DC /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		B12E427D1E84B67000535730 /* BlogsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogsVC.swift; sourceTree = "<group>"; };
+		B12E427F1E84E49300535730 /* BlogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
+		B13E96921F155D42001441C0 /* SCTransactionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCTransactionTableViewController.swift; sourceTree = "<group>"; };
+		B13E96941F15696C001441C0 /* FohoAppCD2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FohoAppCD2.xcdatamodel; sourceTree = "<group>"; };
+		B13E96951F158576001441C0 /* SCTransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		B13E96961F158576001441C0 /* SCTransactionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCTransactionTableViewCell.xib; sourceTree = "<group>"; };
+		B1488F321E64EEEF002DBF7E /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
+		B14D70CE1E07450700A71CAE /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
+		B14D70CF1E07450700A71CAE /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		B14D70D01E07450700A71CAE /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		B14D70D51E075D8D00A71CAE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B14D70DB1E08775600A71CAE /* DrawerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawerVC.swift; path = ../DrawerVC.swift; sourceTree = "<group>"; };
+		B14D70DD1E0888C900A71CAE /* menuHeaderCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuHeaderCellTableViewCell.swift; sourceTree = "<group>"; };
+		B14D70DF1E08897B00A71CAE /* menuBtnCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuBtnCell.swift; sourceTree = "<group>"; };
+		B14F18BC1E95AA9C00202ACC /* OutlineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineButton.swift; sourceTree = "<group>"; };
+		B14F520B1E29CB3D00434EB6 /* coreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreData.xcdatamodel; sourceTree = "<group>"; };
+		B14F520D1E2D5ED000434EB6 /* JsonObjectStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonObjectStructs.swift; sourceTree = "<group>"; };
+		B15709DE1EBDB0D900946714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B16026761EB8FABB00EB1E2F /* UIDeviceExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtention.swift; sourceTree = "<group>"; };
+		B161FD831E1D97E7003884BB /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B16DCC461E6CC7650014032C /* PhotoCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionVC.swift; sourceTree = "<group>"; };
+		B16DCC4B1E6CEE530014032C /* PhotoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewCell.swift; sourceTree = "<group>"; };
+		B16DCC4D1E6CF7D30014032C /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		B179D1EA1EC5142E00765C73 /* PhotoPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPager.swift; sourceTree = "<group>"; };
+		B17E3F061E344A4B005D8BED /* StoreCardBalances.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreCardBalances.swift; sourceTree = "<group>"; };
+		B1A433D71EA15AAF0027288F /* UnderlineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineLabel.swift; sourceTree = "<group>"; };
+		B1A433D91EA15E190027288F /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		B1A6821F1E15EE4300C2A54F /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = TabBarController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B1A682691E16D8B600C2A54F /* TabBarAnimationUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarAnimationUtils.swift; sourceTree = "<group>"; };
+		B1A682781E16FCDB00C2A54F /* TVCRegistrationsVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TVCRegistrationsVc.swift; path = ../TVCRegistrationsVc.swift; sourceTree = "<group>"; };
+		B1B173AB1E13394000EE0158 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		B1EBDC971E0356AA007D9488 /* FohoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FohoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EBDC9A1E0356AA007D9488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1EBDC9C1E0356AA007D9488 /* Loginvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginvc.swift; sourceTree = "<group>"; };
+		B1EBDC9F1E0356AA007D9488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1EBDCA11E0356AA007D9488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1EBDCA61E0356AA007D9488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EBDCAB1E0356AB007D9488 /* FohoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FohoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EBDCAF1E0356AB007D9488 /* FohoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FohoAppTests.swift; sourceTree = "<group>"; };
+		B1EBDCB11E0356AB007D9488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EBDCB61E0356AB007D9488 /* FohoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FohoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EBDCBA1E0356AB007D9488 /* FohoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FohoAppUITests.swift; sourceTree = "<group>"; };
+		B1EBDCBC1E0356AB007D9488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EBDCCC1E049FC3007D9488 /* helperClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helperClasses.swift; sourceTree = "<group>"; };
+		B1EBDCCE1E04A3CB007D9488 /* LoginExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginExt.swift; sourceTree = "<group>"; };
+		B1EBDCD21E060F9F007D9488 /* TVCFeedVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCFeedVc.swift; sourceTree = "<group>"; };
+		C070C0C4F8A595FA7C502A0D /* Pods-FohoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FohoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FohoAppUITests/Pods-FohoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA2E996BFF23B3C8B756D79A /* Pods_FohoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FohoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FF5CBFD25638EEE887838E /* Pods-FohoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FohoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FohoAppUITests/Pods-FohoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5F3994EE4AA0872BB19196E /* Pods-FohoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FohoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FohoAppTests/Pods-FohoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1EBDC941E0356AA007D9488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14D70D61E075D8D00A71CAE /* MapKit.framework in Frameworks */,
+				381CFB3768C40462EBDA3A47 /* Pods_FohoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EBDCA81E0356AB007D9488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C0E7D9DE1E67D332085B7FD /* Pods_FohoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EBDCB31E0356AB007D9488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F00A8284095B9B922D7B2E9 /* Pods_FohoAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1123D3A1E1F0F7200AD63A1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B1EBDC9C1E0356AA007D9488 /* Loginvc.swift */,
+				B1EBDCCE1E04A3CB007D9488 /* LoginExt.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B1123D3B1E1F0F8F00AD63A1 /* FeedView */ = {
+			isa = PBXGroup;
+			children = (
+				B16DCC481E6CC76C0014032C /* PhotoCollection */,
+				B1488F321E64EEEF002DBF7E /* PhotoCollectionCell.swift */,
+				B1EBDCD21E060F9F007D9488 /* TVCFeedVc.swift */,
+				B1123D381E1EEAAE00AD63A1 /* FeedItemTableViewCell.swift */,
+				B1A433D91EA15E190027288F /* PostTableViewCell.swift */,
+			);
+			name = FeedView;
+			sourceTree = "<group>";
+		};
+		B1123D3C1E1F0F9C00AD63A1 /* RegistrationsView */ = {
+			isa = PBXGroup;
+			children = (
+				B1123D501E205E2100AD63A1 /* MainRegistrationVC.swift */,
+				B1A682781E16FCDB00C2A54F /* TVCRegistrationsVc.swift */,
+				B1123D441E1F23EE00AD63A1 /* RegistrationTableViewCell.swift */,
+			);
+			name = RegistrationsView;
+			sourceTree = "<group>";
+		};
+		B1123D3D1E1F0FC500AD63A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B1A433D71EA15AAF0027288F /* UnderlineLabel.swift */,
+				B14F18BC1E95AA9C00202ACC /* OutlineButton.swift */,
+				B14D70CE1E07450700A71CAE /* KYDrawerController.swift */,
+				B14D70CF1E07450700A71CAE /* KYEmbedMainControllerSegue.swift */,
+				B14D70D01E07450700A71CAE /* KYEmbedDrawerControllerSegue.swift */,
+				B1273D1B1E68AA9D00F7B770 /* SKYIconView.swift */,
+				B1185ED81EB5D7F500F82525 /* HttpRequestManager2.swift */,
+				B161FD831E1D97E7003884BB /* Settings.swift */,
+				B1EBDCCC1E049FC3007D9488 /* helperClasses.swift */,
+				B16026761EB8FABB00EB1E2F /* UIDeviceExtention.swift */,
+				B1B173AB1E13394000EE0158 /* ProgressView.swift */,
+				B14F520D1E2D5ED000434EB6 /* JsonObjectStructs.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B1273D1F1E68ADC200F7B770 /* CountDownView */ = {
+			isa = PBXGroup;
+			children = (
+				B1273D1D1E68ADBB00F7B770 /* CountDownController.swift */,
+			);
+			name = CountDownView;
+			sourceTree = "<group>";
+		};
+		B12E427C1E84B65400535730 /* BlogTab */ = {
+			isa = PBXGroup;
+			children = (
+				B12E427F1E84E49300535730 /* BlogCell.swift */,
+				B12E427D1E84B67000535730 /* BlogsVC.swift */,
+				B10034531E86471100E932BA /* BlogView.swift */,
+			);
+			name = BlogTab;
+			sourceTree = "<group>";
+		};
+		B14D70CD1E0744F700A71CAE /* DrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				B13E96961F158576001441C0 /* SCTransactionTableViewCell.xib */,
+				B13E96951F158576001441C0 /* SCTransactionTableViewCell.swift */,
+				B13E96921F155D42001441C0 /* SCTransactionTableViewController.swift */,
+				B17E3F061E344A4B005D8BED /* StoreCardBalances.swift */,
+				B1123D4A1E20509600AD63A1 /* DirectionsVC.swift */,
+				B1123D481E20507C00AD63A1 /* WeatherVC.swift */,
+				B1185ED61EB5585600F82525 /* DayCell.swift */,
+				B14D70DB1E08775600A71CAE /* DrawerVC.swift */,
+				B14D70E11E088A4900A71CAE /* Cells */,
+			);
+			name = DrawerController;
+			sourceTree = "<group>";
+		};
+		B14D70D41E075D8D00A71CAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B14D70D51E075D8D00A71CAE /* MapKit.framework */,
+				757FDBD69963F90C5CB26A38 /* Pods_FohoApp.framework */,
+				CA2E996BFF23B3C8B756D79A /* Pods_FohoAppTests.framework */,
+				B00FE7EE58FF7E395088C2E8 /* Pods_FohoAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B14D70E11E088A4900A71CAE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B14D70DF1E08897B00A71CAE /* menuBtnCell.swift */,
+				B14D70DD1E0888C900A71CAE /* menuHeaderCellTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B16DCC481E6CC76C0014032C /* PhotoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				B179D1EA1EC5142E00765C73 /* PhotoPager.swift */,
+				B16DCC4B1E6CEE530014032C /* PhotoViewCell.swift */,
+				B16DCC4D1E6CF7D30014032C /* DetailVC.swift */,
+				B16DCC461E6CC7650014032C /* PhotoCollectionVC.swift */,
+			);
+			name = PhotoCollection;
+			sourceTree = "<group>";
+		};
+		B1A433D61EA131FA0027288F /* VideoResources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = VideoResources;
+			sourceTree = "<group>";
+		};
+		B1A6826D1E16DA7A00C2A54F /* NavigationSetup */ = {
+			isa = PBXGroup;
+			children = (
+				B1A6821F1E15EE4300C2A54F /* TabBarController.swift */,
+				B1A682691E16D8B600C2A54F /* TabBarAnimationUtils.swift */,
+			);
+			name = NavigationSetup;
+			sourceTree = "<group>";
+		};
+		B1A6826E1E16DAAC00C2A54F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1123D3A1E1F0F7200AD63A1 /* Login */,
+				B1273D1F1E68ADC200F7B770 /* CountDownView */,
+				B1A6826D1E16DA7A00C2A54F /* NavigationSetup */,
+				B1123D3B1E1F0F8F00AD63A1 /* FeedView */,
+				B12E427C1E84B65400535730 /* BlogTab */,
+				B1123D3C1E1F0F9C00AD63A1 /* RegistrationsView */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B1EBDC8E1E0356AA007D9488 = {
+			isa = PBXGroup;
+			children = (
+				B12B516A1EDF9EFE008983DC /* ChangeLog */,
+				B1A433D61EA131FA0027288F /* VideoResources */,
+				B1EBDC991E0356AA007D9488 /* FohoApp */,
+				B1EBDCAE1E0356AB007D9488 /* FohoAppTests */,
+				B1EBDCB91E0356AB007D9488 /* FohoAppUITests */,
+				B1EBDC981E0356AA007D9488 /* Products */,
+				B14D70D41E075D8D00A71CAE /* Frameworks */,
+				D78A54E1AEFB82A782DF7A71 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B1EBDC981E0356AA007D9488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1EBDC971E0356AA007D9488 /* FohoApp.app */,
+				B1EBDCAB1E0356AB007D9488 /* FohoAppTests.xctest */,
+				B1EBDCB61E0356AB007D9488 /* FohoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1EBDC991E0356AA007D9488 /* FohoApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1123D3D1E1F0FC500AD63A1 /* Utils */,
+				B1A6826E1E16DAAC00C2A54F /* View Controllers */,
+				B14D70CD1E0744F700A71CAE /* DrawerController */,
+				B1EBDC9E1E0356AA007D9488 /* Main.storyboard */,
+				B15709DD1EBDB0D900946714 /* LaunchScreen.storyboard */,
+				B1EBDCA11E0356AA007D9488 /* Assets.xcassets */,
+				B1123D831E25B3CC00AD63A1 /* launchVC.swift */,
+				B1EBDCA61E0356AA007D9488 /* Info.plist */,
+				B1EBDC9A1E0356AA007D9488 /* AppDelegate.swift */,
+				B14F520A1E29CB3D00434EB6 /* coreData.xcdatamodeld */,
+			);
+			path = FohoApp;
+			sourceTree = "<group>";
+		};
+		B1EBDCAE1E0356AB007D9488 /* FohoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1EBDCAF1E0356AB007D9488 /* FohoAppTests.swift */,
+				B1EBDCB11E0356AB007D9488 /* Info.plist */,
+			);
+			path = FohoAppTests;
+			sourceTree = "<group>";
+		};
+		B1EBDCB91E0356AB007D9488 /* FohoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1EBDCBA1E0356AB007D9488 /* FohoAppUITests.swift */,
+				B1EBDCBC1E0356AB007D9488 /* Info.plist */,
+			);
+			path = FohoAppUITests;
+			sourceTree = "<group>";
+		};
+		D78A54E1AEFB82A782DF7A71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F03F7D9CE615F5416E7497E /* Pods-FohoApp.debug.xcconfig */,
+				A4B6741019FCEC3460DBBE3A /* Pods-FohoApp.release.xcconfig */,
+				722B217667BB797B8D04EDB4 /* Pods-FohoAppTests.debug.xcconfig */,
+				E5F3994EE4AA0872BB19196E /* Pods-FohoAppTests.release.xcconfig */,
+				C070C0C4F8A595FA7C502A0D /* Pods-FohoAppUITests.debug.xcconfig */,
+				E0FF5CBFD25638EEE887838E /* Pods-FohoAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1EBDC961E0356AA007D9488 /* FohoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EBDCBF1E0356AB007D9488 /* Build configuration list for PBXNativeTarget "FohoApp" */;
+			buildPhases = (
+				1B33F5629E08FCC2983E55DC /* [CP] Check Pods Manifest.lock */,
+				B1EBDC931E0356AA007D9488 /* Sources */,
+				B1EBDC941E0356AA007D9488 /* Frameworks */,
+				B1EBDC951E0356AA007D9488 /* Resources */,
+				91A7ACA50524E518DEA3DFAF /* [CP] Embed Pods Frameworks */,
+				CDC02365FB563F84862758FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FohoApp;
+			productName = FohoApp;
+			productReference = B1EBDC971E0356AA007D9488 /* FohoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1EBDCAA1E0356AB007D9488 /* FohoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EBDCC21E0356AB007D9488 /* Build configuration list for PBXNativeTarget "FohoAppTests" */;
+			buildPhases = (
+				AA95E54ED12510351CBF89E0 /* [CP] Check Pods Manifest.lock */,
+				B1EBDCA71E0356AB007D9488 /* Sources */,
+				B1EBDCA81E0356AB007D9488 /* Frameworks */,
+				B1EBDCA91E0356AB007D9488 /* Resources */,
+				318D82254E9B5CDF1319A226 /* [CP] Embed Pods Frameworks */,
+				7B3550C48235C6B68A88D275 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1EBDCAD1E0356AB007D9488 /* PBXTargetDependency */,
+			);
+			name = FohoAppTests;
+			productName = FohoAppTests;
+			productReference = B1EBDCAB1E0356AB007D9488 /* FohoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1EBDCB51E0356AB007D9488 /* FohoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EBDCC51E0356AB007D9488 /* Build configuration list for PBXNativeTarget "FohoAppUITests" */;
+			buildPhases = (
+				CD2BA92E91C21160B430DC4F /* [CP] Check Pods Manifest.lock */,
+				B1EBDCB21E0356AB007D9488 /* Sources */,
+				B1EBDCB31E0356AB007D9488 /* Frameworks */,
+				B1EBDCB41E0356AB007D9488 /* Resources */,
+				3551973F1BEEA96D90786C41 /* [CP] Copy Pods Resources */,
+				A1D148B39F1124167236AD84 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1EBDCB81E0356AB007D9488 /* PBXTargetDependency */,
+			);
+			name = FohoAppUITests;
+			productName = FohoAppUITests;
+			productReference = B1EBDCB61E0356AB007D9488 /* FohoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1EBDC8F1E0356AA007D9488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Aaron Renfroe";
+				TargetAttributes = {
+					B1EBDC961E0356AA007D9488 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 84UX78WC93;
+						ProvisioningStyle = Automatic;
+					};
+					B1EBDCAA1E0356AB007D9488 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 84UX78WC93;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1EBDC961E0356AA007D9488;
+					};
+					B1EBDCB51E0356AB007D9488 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 84UX78WC93;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1EBDC961E0356AA007D9488;
+					};
+				};
+			};
+			buildConfigurationList = B1EBDC921E0356AA007D9488 /* Build configuration list for PBXProject "FohoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1EBDC8E1E0356AA007D9488;
+			productRefGroup = B1EBDC981E0356AA007D9488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1EBDC961E0356AA007D9488 /* FohoApp */,
+				B1EBDCAA1E0356AB007D9488 /* FohoAppTests */,
+				B1EBDCB51E0356AB007D9488 /* FohoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1EBDC951E0356AA007D9488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13E96981F158576001441C0 /* SCTransactionTableViewCell.xib in Resources */,
+				B15709DF1EBDB0D900946714 /* LaunchScreen.storyboard in Resources */,
+				B12B516B1EDF9EFE008983DC /* ChangeLog in Resources */,
+				B1EBDCA21E0356AA007D9488 /* Assets.xcassets in Resources */,
+				B1EBDCA01E0356AA007D9488 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EBDCA91E0356AB007D9488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EBDCB41E0356AB007D9488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B33F5629E08FCC2983E55DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FohoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		318D82254E9B5CDF1319A226 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FohoAppTests/Pods-FohoAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3551973F1BEEA96D90786C41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FohoAppUITests/Pods-FohoAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B3550C48235C6B68A88D275 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FohoAppTests/Pods-FohoAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A7ACA50524E518DEA3DFAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FohoApp/Pods-FohoApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PDFReader/PDFReader.framework",
+				"${BUILT_PRODUCTS_DIR}/Splitflap/Splitflap.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/YTVimeoExtractor/YTVimeoExtractor.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flurry_iOS_SDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Splitflap.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTVimeoExtractor.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FohoApp/Pods-FohoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D148B39F1124167236AD84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FohoAppUITests/Pods-FohoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA95E54ED12510351CBF89E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FohoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2BA92E91C21160B430DC4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FohoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC02365FB563F84862758FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FohoApp/Pods-FohoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1EBDC931E0356AA007D9488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13E96971F158576001441C0 /* SCTransactionTableViewCell.swift in Sources */,
+				B1EBDC9D1E0356AA007D9488 /* Loginvc.swift in Sources */,
+				B1A682201E15EE4300C2A54F /* TabBarController.swift in Sources */,
+				B1123D491E20507C00AD63A1 /* WeatherVC.swift in Sources */,
+				B1EBDCCD1E049FC3007D9488 /* helperClasses.swift in Sources */,
+				B13E96931F155D42001441C0 /* SCTransactionTableViewController.swift in Sources */,
+				B14F520E1E2D5ED000434EB6 /* JsonObjectStructs.swift in Sources */,
+				B1A433D81EA15AAF0027288F /* UnderlineLabel.swift in Sources */,
+				B1273D1C1E68AA9D00F7B770 /* SKYIconView.swift in Sources */,
+				B1EBDCCF1E04A3CB007D9488 /* LoginExt.swift in Sources */,
+				B16DCC471E6CC7650014032C /* PhotoCollectionVC.swift in Sources */,
+				B1185ED71EB5585600F82525 /* DayCell.swift in Sources */,
+				B1273D1E1E68ADBB00F7B770 /* CountDownController.swift in Sources */,
+				B161FD841E1D97E7003884BB /* Settings.swift in Sources */,
+				B1185ED91EB5D7F500F82525 /* HttpRequestManager2.swift in Sources */,
+				B1A6826A1E16D8B600C2A54F /* TabBarAnimationUtils.swift in Sources */,
+				B14D70E01E08897B00A71CAE /* menuBtnCell.swift in Sources */,
+				B1123D451E1F23EE00AD63A1 /* RegistrationTableViewCell.swift in Sources */,
+				B14D70DE1E0888C900A71CAE /* menuHeaderCellTableViewCell.swift in Sources */,
+				B16DCC4E1E6CF7D30014032C /* DetailVC.swift in Sources */,
+				B17E3F071E344A4B005D8BED /* StoreCardBalances.swift in Sources */,
+				B1123D391E1EEAAE00AD63A1 /* FeedItemTableViewCell.swift in Sources */,
+				B179D1EB1EC5142E00765C73 /* PhotoPager.swift in Sources */,
+				B16026771EB8FABB00EB1E2F /* UIDeviceExtention.swift in Sources */,
+				B14F520C1E29CB3D00434EB6 /* coreData.xcdatamodeld in Sources */,
+				B1123D4B1E20509600AD63A1 /* DirectionsVC.swift in Sources */,
+				B1B173AC1E13394000EE0158 /* ProgressView.swift in Sources */,
+				B14D70D21E07450700A71CAE /* KYEmbedMainControllerSegue.swift in Sources */,
+				B12E42801E84E49300535730 /* BlogCell.swift in Sources */,
+				B1A682791E16FCDB00C2A54F /* TVCRegistrationsVc.swift in Sources */,
+				B14D70D11E07450700A71CAE /* KYDrawerController.swift in Sources */,
+				B14D70D31E07450700A71CAE /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				B14F18BD1E95AA9C00202ACC /* OutlineButton.swift in Sources */,
+				B1123D511E205E2100AD63A1 /* MainRegistrationVC.swift in Sources */,
+				B1EBDCD31E060F9F007D9488 /* TVCFeedVc.swift in Sources */,
+				B16DCC4C1E6CEE530014032C /* PhotoViewCell.swift in Sources */,
+				B1A433DA1EA15E190027288F /* PostTableViewCell.swift in Sources */,
+				B12E427E1E84B67000535730 /* BlogsVC.swift in Sources */,
+				B14D70DC1E08775600A71CAE /* DrawerVC.swift in Sources */,
+				B10034541E86471100E932BA /* BlogView.swift in Sources */,
+				B1123D841E25B3CC00AD63A1 /* launchVC.swift in Sources */,
+				B1488F331E64EEEF002DBF7E /* PhotoCollectionCell.swift in Sources */,
+				B1EBDC9B1E0356AA007D9488 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EBDCA71E0356AB007D9488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EBDCB01E0356AB007D9488 /* FohoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EBDCB21E0356AB007D9488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EBDCBB1E0356AB007D9488 /* FohoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1EBDCAD1E0356AB007D9488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1EBDC961E0356AA007D9488 /* FohoApp */;
+			targetProxy = B1EBDCAC1E0356AB007D9488 /* PBXContainerItemProxy */;
+		};
+		B1EBDCB81E0356AB007D9488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1EBDC961E0356AA007D9488 /* FohoApp */;
+			targetProxy = B1EBDCB71E0356AB007D9488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B15709DD1EBDB0D900946714 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15709DE1EBDB0D900946714 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B1EBDC9E1E0356AA007D9488 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1EBDC9F1E0356AA007D9488 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1EBDCBD1E0356AB007D9488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1EBDCBE1E0356AB007D9488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1EBDCC01E0356AB007D9488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F03F7D9CE615F5416E7497E /* Pods-FohoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84UX78WC93;
+				INFOPLIST_FILE = FohoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afterrabble.FohoApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1EBDCC11E0356AB007D9488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B6741019FCEC3460DBBE3A /* Pods-FohoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84UX78WC93;
+				INFOPLIST_FILE = FohoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afterrabble.FohoApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1EBDCC31E0356AB007D9488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722B217667BB797B8D04EDB4 /* Pods-FohoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84UX78WC93;
+				INFOPLIST_FILE = FohoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afterrabble.com.FohoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FohoApp.app/FohoApp";
+			};
+			name = Debug;
+		};
+		B1EBDCC41E0356AB007D9488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F3994EE4AA0872BB19196E /* Pods-FohoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84UX78WC93;
+				INFOPLIST_FILE = FohoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afterrabble.com.FohoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FohoApp.app/FohoApp";
+			};
+			name = Release;
+		};
+		B1EBDCC61E0356AB007D9488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C070C0C4F8A595FA7C502A0D /* Pods-FohoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 84UX78WC93;
+				INFOPLIST_FILE = FohoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afterrabble.com.FohoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FohoApp;
+			};
+			name = Debug;
+		};
+		B1EBDCC71E0356AB007D9488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FF5CBFD25638EEE887838E /* Pods-FohoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 84UX78WC93;
+				INFOPLIST_FILE = FohoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afterrabble.com.FohoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FohoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1EBDC921E0356AA007D9488 /* Build configuration list for PBXProject "FohoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EBDCBD1E0356AB007D9488 /* Debug */,
+				B1EBDCBE1E0356AB007D9488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EBDCBF1E0356AB007D9488 /* Build configuration list for PBXNativeTarget "FohoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EBDCC01E0356AB007D9488 /* Debug */,
+				B1EBDCC11E0356AB007D9488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EBDCC21E0356AB007D9488 /* Build configuration list for PBXNativeTarget "FohoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EBDCC31E0356AB007D9488 /* Debug */,
+				B1EBDCC41E0356AB007D9488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EBDCC51E0356AB007D9488 /* Build configuration list for PBXNativeTarget "FohoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EBDCC61E0356AB007D9488 /* Debug */,
+				B1EBDCC71E0356AB007D9488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B14F520A1E29CB3D00434EB6 /* coreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B13E96941F15696C001441C0 /* FohoAppCD2.xcdatamodel */,
+				B14F520B1E29CB3D00434EB6 /* coreData.xcdatamodel */,
+			);
+			currentVersion = B13E96941F15696C001441C0 /* FohoAppCD2.xcdatamodel */;
+			path = coreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B1EBDC8F1E0356AA007D9488 /* Project object */;
+}

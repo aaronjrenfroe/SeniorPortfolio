@@ -1,0 +1,10 @@
+framework module Splitflap {
+  umbrella header "Splitflap-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Splitflap.Swift {
+    header "Splitflap-Swift.h"
+}

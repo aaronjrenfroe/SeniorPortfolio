@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:ForestHomeAdventureGuide" 
+	x:Class="ForestHomeAdventureGuide.AppEntryPage"
+	BackgroundColor="Black">
+	
+	<AbsoluteLayout>
+		
+		<Image 
+			AbsoluteLayout.LayoutBounds="0.5, 0.05 , 0.33, 0.33"
+			AbsoluteLayout.LayoutFlags="All"
+			x:Name="logo"/>
+		
+		<Label TextColor = "White"
+			Text = "Encounter Jesus. Experience Transformation. Engage the World."
+			Font="10"
+			AbsoluteLayout.LayoutBounds="0.5, 0.95 , 1, 0.02"
+			AbsoluteLayout.LayoutFlags="All"
+			HorizontalTextAlignment="Center"/>
+
+	</AbsoluteLayout>
+	
+</ContentPage>
